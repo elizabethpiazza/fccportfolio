@@ -1,0 +1,14 @@
+/*body {
+	padding-top: 70px;
+}*/
+
+.content-block {
+	height: 100vh;
+	padding: 70px 0; /*this is for topnav, can be removed later*/
+	border: 1px solid black;
+}
+
+#home {
+	background: url('http://i376.photobucket.com/albums/oo210/epiazza22/laptop-849800_1280_zpsqpef3qw9.jpg') no-repeat;
+	background-size: cover;
+}
