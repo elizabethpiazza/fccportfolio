@@ -1,25 +1,64 @@
-/*body {
-	padding-top: 70px;
-}*/
-
-.content-block {
-	height: 100vh;
-	padding: 70px 0; /*this is for topnav, can be removed later*/
-	border: 1px solid blue;
+body {
+	font-family: 'Rubik', sans-serif;
 }
 
-.content-block > .container {
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-	border: 1px solid red;
+.nav {
+	font-weight: bold;
+}
+
+.content-block {
+	min-height: 100vh;
+	width: 100%;
+	padding: 70px 0; /*this is for topnav, can be removed later*/
 }
 
 #social-btns {
-	padding-top: 20px;
+	padding: 20px 0;
+	margin: 20px 0;
 }
 
-/*#home {
+.thumbnail {
+	padding: 5px;
+}
+
+.lightbg {
+	background: rgba(255, 255, 255, .5);
+}
+
+div .lightbg {
+	border-radius: 10px;
+	margin-top: 50px;
+}
+
+.photo {
+	border-radius: 10px;
+	width: 100%;
+	height: auto;
+	max-width: 200px;
+}
+
+.vcenter {
+	position: relative;
+	top: 50%;
+	transform: translateY(50%);
+}
+
+#home {
 	background: url('http://i376.photobucket.com/albums/oo210/epiazza22/laptop-849800_1280_zpsqpef3qw9.jpg') no-repeat;
 	background-size: cover;
-}*/
+}
+
+#about {
+	background: url('http://i376.photobucket.com/albums/oo210/epiazza22/newspaper-595478_1280_zpsokusllhv.jpg') no-repeat;
+	background-size: cover;
+}
+
+#examples {
+	background: url('http://i376.photobucket.com/albums/oo210/epiazza22/laptop-849800_1280_zpsqpef3qw9.jpg') no-repeat;
+	background-size: cover;
+}
+
+#contact {
+	background: url('http://i376.photobucket.com/albums/oo210/epiazza22/old-791383_1280_zpstwdaufsp.jpg') no-repeat;
+	background-size: cover;
+}
